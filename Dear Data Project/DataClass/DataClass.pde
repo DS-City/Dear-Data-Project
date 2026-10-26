@@ -22,8 +22,6 @@ class Star
     fill(starColor);
     noStroke();
   }
-  //duration = (row.getFloat("DURATION"));
-  //String durationRounded = nf(duration, 0, 2);
   //date = row.getString("DATE");
 
   //purpose = row.getString("PURPOSE");
