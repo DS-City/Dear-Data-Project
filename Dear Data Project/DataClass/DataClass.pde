@@ -23,6 +23,5 @@ class Star
     noStroke();
   }
   //date = row.getString("DATE");
-
   //purpose = row.getString("PURPOSE");
 }
