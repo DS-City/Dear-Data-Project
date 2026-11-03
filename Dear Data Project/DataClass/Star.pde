@@ -4,6 +4,7 @@ class Star
   String colorKey;
   color starColor;
   float starSize;
+  PVector starPosition;
 
   Star()
   {
@@ -16,6 +17,10 @@ class Star
 
   void setSize(float newSize) {
     starSize = newSize;
+  }
+
+  void setPosition(PVector newPosition) {
+    starPosition = newPosition;
   }
 
   void displayStars() {

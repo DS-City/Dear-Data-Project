@@ -2,6 +2,7 @@ Star[] stars;
 Table table;
 String language;
 float duration;
+PVector position;
 
 void setup() {
   size(1000, 1000);
@@ -26,7 +27,11 @@ void setup() {
       break;
     case "Typescript":
       stars[i].setColor(#3178C6);
+      break;
     }
+
+
+
     i++;
   }
 }
