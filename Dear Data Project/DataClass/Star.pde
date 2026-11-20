@@ -8,7 +8,6 @@ class Star
 
   Star()
   {
-    position = new PVector(width/6, height/6);
   }
 
   void setColor(color newColor) {
@@ -28,5 +27,5 @@ class Star
     noStroke();
   }
   //date = row.getString("DATE");
-  //purpose = row.getString("PURPOSE");
+  //context = row.getString("CONTEXT");
 }
