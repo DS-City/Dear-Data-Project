@@ -8,24 +8,24 @@ class Star
 
   Star()
   {
+    starPosition = new PVector(0, height/2.0);
   }
 
   void setColor(color newColor) {
     starColor = newColor;
   }
 
-  void setSize(float newSize) {
-    starSize = newSize;
+  void setSize(float size) {
+    starSize = size;
   }
 
-  void setPosition(PVector newPosition) {
-    starPosition = newPosition;
+  void setPosition(int width, float normalisedDate) {
+    starPosition.x = width * normalisedDate;
   }
 
-  void displayStars() {
+  void displayStar() {
     fill(starColor);
     noStroke();
+    ellipse(starPosition.x, starPosition.y, starSize * 15, starSize * 15);
   }
-  //date = row.getString("DATE");
-  //context = row.getString("CONTEXT");
 }
